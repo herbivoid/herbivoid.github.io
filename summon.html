@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Herbivoid</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="menu" class="menu">
+  <button id="menuButton" class="menu-button">Menu &#x2661;</button>
+  <div id="menuContent" class="menu-content">
+    <a href="index.html">Home</a>
+    <a href="learn.html">Learn</a>
+    <a href="#links">Links</a>
+    <a href="summon.html">Summon</a>
+  </div>
+</div>
+
+<h1 class="band-name">Herbivoid</h1>
+
+<div class="top-text">
+  Summon
+</div>
+
+<div class="content">
+  <div class="text-section">
+    summon me for divination sessions, shows, party quests, exorcisms <br>
+    arranging, composing, transcribing anything <br>
+    other stuff better not put in writing but if you know you know
+
+    <form class="summon-form" action="https://formsubmit.co/herbivoid@proton.me" method="POST">
+      <input type="hidden" name="_subject" value="New summoning from herbivoid.com">
+      <input type="hidden" name="_template" value="box">
+      <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+      <label for="name">name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+      <button type="submit">Summon &#x2661;</button>
+    </form>
+  </div>
+  <div class="image-section">
+    <img src="images/neetrabbitascii.png" alt="Summon Image">
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
