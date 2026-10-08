@@ -162,3 +162,45 @@ body {
 .summon-form .honeypot {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .band-name {
+    margin-top: 16px;
+  }
+
+  .header-image img {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .social-link {
+    width: 64px;
+    height: 64px;
+    margin: 0 6px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 16px 40px;
+  }
+
+  .text-section {
+    margin: 0;
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .image-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .image-section img {
+    max-height: 70vh;
+  }
+
+  .summon-form {
+    max-width: none;
+  }
+}
